@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            
+            <ImageView
+                android:id="@+id/br_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ic_cs"/>
+
+
+            <TextView
+                android:id="@+id/br_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Branches Offered"
+                android:layout_marginLeft="16dp"
+                android:textSize="22sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/titleColor"
+                android:fontFamily="@string/bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/br_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Galgotias University is a private university located in Greater Noida, Uttar Pradesh, India. It was founded in 2011 by the Galgotias Educational Institutions, which have been providing education in the fields of engineering and management since 1999.The university offers a wide range of undergraduate, postgraduate and doctoral programs in various fields such as engineering, management, law, commerce, science, arts, and humanities. It has state-of-the-art infrastructure, modern facilities, and a vibrant campus life. The university has a strong focus on research and innovation, with several research centers and institutes that promote cutting-edge research.Galgotias University is recognized by the University Grants Commission (UGC) and is accredited by the National Assessment and Accreditation Council (NAAC) with 'A+' grade. It is also a member of the Association of Indian Universities (AIU) and the Association of Commonwealth Universities (ACU)."
+            android:justificationMode="inter_word"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:textColor="@color/textColor"
+            android:fontFamily="@string/light"/>
+
+        
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
